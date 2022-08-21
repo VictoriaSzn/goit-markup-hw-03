@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Студія</title>
+    <!--modern normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  </head>
+  <body>
+    <header>
+      <div class="container heder-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo logo-header-menu">
+            <!--ссылка на возврат в начало страницы-->
+            Web<span class="header-logo-span">Studio</span>
+          </a>
+          <ul class="header-nav-menu">
+            <!--список ссылок навигации по сайту-->
+            <li><a href="./index.html" class="header-menu current">Студія</a></li>
+            <li><a href="./portfolio.html" class="header-menu">Портфоліо</a></li>
+            <li><a href="" class="header-menu">Контакти</a></li>
+          </ul>
+        </nav>
+        <!--список контактов-->
+        <!-- <div ></div> -->
+        <ul class="header-mail-tel">
+          <li>
+            <a href="mailto:info@devstudio.com" class="header-contacts mail">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <!--герой-->
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="btn-alternative">Замовити послугу</button>
+        <!--кнопка з посиланням-->
+      </section>
+      <!--список переваг або особливостей-->
+      <section class="especially">
+        <div class="container">
+          <h2 class="title visually-hidden">Наші особливості</h2>
+          <!--позже спрячем чтобы на странице не было видно этого заголовка-->
+          <ul class="especially-bloсk">
+            <li class="especially-card">
+              <h3 class="title">Увага до деталей</h3>
+              <p class="text">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li class="especially-card">
+              <h3 class="title">Пунктуальність</h3>
+              <p class="text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li class="especially-card">
+              <h3 class="title">Планування</h3>
+              <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            </li>
+            <li class="especially-card">
+              <h3 class="title">Сучасні технології</h3>
+              <p class="text">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Чим ми займаємося-->
+      <section class="made">
+        <div class="container">
+          <h2 class="title-section">Чим ми займаємося</h2>
+          <ul class="made-cards">
+            <li class="made-pfoto">
+              <img src="./images/box1.jpg" alt="ноутбук та девайс" width="370" />
+            </li>
+            <li class="made-pfoto">
+              <img src="./images/box2.jpg" alt="ноутбук та девайс" width="370" />
+            </li>
+            <li class="made-pfoto">
+              <img src="./images/box3.jpg" alt="ноутбук та девайс" width="370" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Наша команда-->
+      <section class="team">
+        <div class="container">
+          <h2 class="title-section">Наша команда</h2>
+          <ul class="team-cards">
+            <li class="team-employees">
+              <img src="./images/ihor.jpg" alt="фото Ігор Дем'яненко" width="270" />
+              <h3 class="title">Ігор Дем'яненко</h3>
+              <p class="text">Product Designer</p>
+            </li>
+            <li class="team-employees">
+              <img src="./images/olga.jpg" alt="фото Ольга Рєпіна" width="270" />
+              <h3 class="title">Ольга Рєпіна</h3>
+              <p class="text">Frontend Developer</p>
+            </li>
+            <li class="team-employees">
+              <img src="./images/mykola.jpg" alt="фото Микола Тарасов" width="270" />
+              <h3 class="title">Микола Тарасов</h3>
+              <p class="text">Marketing</p>
+            </li>
+            <li class="team-employees">
+              <img src="./images/myhailo.jpg" alt="фото Михайло Єрмаков" width="270" />
+              <h3 class="title">Михайло Єрмаков</h3>
+              <p class="text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <!--тег addres-->
+      <div class="container">
+        <a href="./index.html" class="logo"> Web<span class="footer-logo">Studio</span></a>
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/6emUorHh679U21bC7"
+                target="_blank"
+                rel="noopener nofollow noreferrer"
+                class="footer-address"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              ><!--поставила для rel все три атрибута ШОБ надежнее )))-->
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="footer-contacts mail"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li><a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
