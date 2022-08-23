@@ -22,32 +22,36 @@
     <header>
       <div class="container heder-container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo logo-header-menu">
+          <a href="./index.html" class="logo logo-header-menu link">
             <!--ссылка на возврат в начало страницы-->
-            Web<span class="header-logo-span">Studio</span>
+            Web<span class="header-logo-span link">Studio</span>
           </a>
           <ul class="header-nav-menu">
             <!--список ссылок навигации по сайту-->
-            <li><a href="./index.html" class="header-menu current">Студія</a></li>
-            <li><a href="./portfolio.html" class="header-menu">Портфоліо</a></li>
-            <li><a href="" class="header-menu">Контакти</a></li>
+            <li><a href="./index.html" class="header-menu link">Студія</a></li>
+            <li><a href="./portfolio.html" class="header-menu current link">Портфоліо</a></li>
+            <li><a href="" class="header-menu link">Контакти</a></li>
           </ul>
         </nav>
         <!--список контактов-->
         <!-- <div ></div> -->
         <ul class="header-mail-tel">
           <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts mail">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="header-contacts mail link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a></li>
+          <li>
+            <a href="tel:+380961111111" class="header-contacts link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <main>
-      <section class="portfolio">
+      <!--фильтр-->
+      <section class="portfolio-filtr">
         <!--заголовок не будет отображатся на странице-->
         <h1 class="visually-hidden">Портфоліо</h1>
-        <!--фильтр-->
         <div class="container">
           <ul class="btn portfolio">
             <li><button type="button" class="btn-prim">Усі</button></li>
@@ -57,7 +61,9 @@
             <li><button type="button" class="btn-prim">Маркетинг</button></li>
           </ul>
         </div>
-        <!--portfolio-->
+      </section>
+      <!--portfolio-->
+      <section class="portfolio">
         <div class="container">
           <ul class="portfolio-cards-block">
             <li class="portfolio-cards">
@@ -68,8 +74,10 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Технокряк</h2>
-                <p class="text">Веб-сайт</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Технокряк</h2>
+                  <p class="text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
@@ -80,8 +88,10 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                <p class="text">Дизайн</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                  <p class="text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
@@ -92,15 +102,19 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Ресторан Seafood</h2>
-                <p class="text">Додаток</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Ресторан Seafood</h2>
+                  <p class="text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
               <a class="link" href="">
                 <img src="./images/portfolio/img21.jpg" alt="навушники" width="370" height="290" />
-                <h2 class="title">Проєкт Prime</h2>
-                <p class="text">Маркетинг</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Проєкт Prime</h2>
+                  <p class="text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
@@ -111,8 +125,10 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Проєкт Boxes</h2>
-                <p class="text">Додаток</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Проєкт Boxes</h2>
+                  <p class="text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
@@ -123,8 +139,10 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Inspiration has no Borders</h2>
-                <p class="text">Веб-сайт</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Inspiration has no Borders</h2>
+                  <p class="text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
@@ -135,8 +153,10 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Видання Limited Edition</h2>
-                <p class="text">Дизайн</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Видання Limited Edition</h2>
+                  <p class="text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
@@ -147,8 +167,10 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Проєкт LAB</h2>
-                <p class="text">Маркетинг</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Проєкт LAB</h2>
+                  <p class="text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-cards">
@@ -159,8 +181,10 @@
                   width="370"
                   height="290"
                 />
-                <h2 class="title">Growing Business</h2>
-                <p class="text">Додаток</p>
+                <div class="portfolio-cards-title">
+                  <h2 class="title">Growing Business</h2>
+                  <p class="text">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -170,24 +194,28 @@
     <footer class="footer">
       <!--тег addres-->
       <div class="container">
-        <a href="./index.html" class="logo"> Web<span class="footer-logo">Studio</span></a>
+        <a href="./index.html" class="logo link">
+          Web<span class="footer-logo link">Studio</span></a
+        >
         <address>
           <ul>
-            <li>
+            <li class="footer-address-list">
               <a
                 href="https://goo.gl/maps/6emUorHh679U21bC7"
                 target="_blank"
                 rel="noopener nofollow noreferrer"
-                class="footer-address"
+                class="footer-address link"
                 >м. Київ, пр-т Лесі Українки, 26</a
               ><!--поставила для rel все три атрибута ШОБ надежнее )))-->
             </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="footer-contacts mail"
+            <li class="footer-address-list">
+              <a href="mailto:info@devstudio.com" class="footer-contacts mail link"
                 >info@devstudio.com</a
               >
             </li>
-            <li><a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a></li>
+            <li class="footer-address-list without-margin">
+              <a href="tel:+380961111111" class="footer-contacts link">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>

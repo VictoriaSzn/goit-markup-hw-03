@@ -24,33 +24,39 @@
     <header>
       <div class="container heder-container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo logo-header-menu">
+          <a href="./index.html" class="logo logo-header-menu link">
             <!--ссылка на возврат в начало страницы-->
-            Web<span class="header-logo-span">Studio</span>
+            Web<span class="header-logo-span link">Studio</span>
           </a>
           <ul class="header-nav-menu">
             <!--список ссылок навигации по сайту-->
-            <li><a href="./index.html" class="header-menu current">Студія</a></li>
-            <li><a href="./portfolio.html" class="header-menu">Портфоліо</a></li>
-            <li><a href="" class="header-menu">Контакти</a></li>
+            <li><a href="./index.html" class="header-menu current link">Студія</a></li>
+            <li><a href="./portfolio.html" class="header-menu link">Портфоліо</a></li>
+            <li><a href="" class="header-menu link">Контакти</a></li>
           </ul>
         </nav>
         <!--список контактов-->
         <!-- <div ></div> -->
         <ul class="header-mail-tel">
           <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts mail">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="header-contacts mail link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a></li>
+          <li>
+            <a href="tel:+380961111111" class="header-contacts link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <main>
+      <!--герой-->
       <section class="hero">
-        <!--герой-->
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="btn-alternative">Замовити послугу</button>
-        <!--кнопка з посиланням-->
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="btn-alternative">Замовити послугу</button>
+          <!--кнопка з посиланням-->
+        </div>
       </section>
       <!--список переваг або особливостей-->
       <section class="especially">
@@ -107,23 +113,31 @@
           <ul class="team-cards">
             <li class="team-employees">
               <img src="./images/ihor.jpg" alt="фото Ігор Дем'яненко" width="270" />
-              <h3 class="title">Ігор Дем'яненко</h3>
-              <p class="text">Product Designer</p>
+              <div class="team-cards-title">
+                <h3 class="title">Ігор Дем'яненко</h3>
+                <p class="text">Product Designer</p>
+              </div>
             </li>
             <li class="team-employees">
               <img src="./images/olga.jpg" alt="фото Ольга Рєпіна" width="270" />
-              <h3 class="title">Ольга Рєпіна</h3>
-              <p class="text">Frontend Developer</p>
+              <div class="team-cards-title">
+                <h3 class="title">Ольга Рєпіна</h3>
+                <p class="text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-employees">
               <img src="./images/mykola.jpg" alt="фото Микола Тарасов" width="270" />
-              <h3 class="title">Микола Тарасов</h3>
-              <p class="text">Marketing</p>
+              <div class="team-cards-title">
+                <h3 class="title">Микола Тарасов</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="team-employees">
               <img src="./images/myhailo.jpg" alt="фото Михайло Єрмаков" width="270" />
-              <h3 class="title">Михайло Єрмаков</h3>
-              <p class="text">UI Designer</p>
+              <div class="team-cards-title">
+                <h3 class="title">Михайло Єрмаков</h3>
+                <p class="text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -132,24 +146,28 @@
     <footer class="footer">
       <!--тег addres-->
       <div class="container">
-        <a href="./index.html" class="logo"> Web<span class="footer-logo">Studio</span></a>
+        <a href="./index.html" class="logo link">
+          Web<span class="footer-logo link">Studio</span></a
+        >
         <address>
           <ul>
-            <li>
+            <li class="footer-address-list">
               <a
                 href="https://goo.gl/maps/6emUorHh679U21bC7"
                 target="_blank"
                 rel="noopener nofollow noreferrer"
-                class="footer-address"
+                class="footer-address link"
                 >м. Київ, пр-т Лесі Українки, 26</a
               ><!--поставила для rel все три атрибута ШОБ надежнее )))-->
             </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="footer-contacts mail"
+            <li class="footer-address-list">
+              <a href="mailto:info@devstudio.com" class="footer-contacts mail link"
                 >info@devstudio.com</a
               >
             </li>
-            <li><a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a></li>
+            <li class="footer-address-list without-margin">
+              <a href="tel:+380961111111" class="footer-contacts link">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
